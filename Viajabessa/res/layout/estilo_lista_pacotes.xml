@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linha_tabela"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_cards"
+    android:foreground="@drawable/selectable_background_viajabessa" 
+    android:padding="8dp">
+
+    <ImageView
+        android:id="@+id/img_foto"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/altura_list_item_pacotes"
+        android:scaleType="centerCrop"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/altura_list_item_pacotes" >
+
+        <TextView
+            android:id="@+id/texto_nome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/textview_list_bg"
+            android:gravity="center_vertical"
+            android:padding="8dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/cor_texto_branco" />
+
+        <TextView
+            android:id="@+id/text_valor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_margin="8dp"
+            android:background="@drawable/estilo_botao_comprar"
+            android:gravity="right"
+            android:padding="8dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/cor_texto_branco" />
+
+    </RelativeLayout>
+
+</FrameLayout>

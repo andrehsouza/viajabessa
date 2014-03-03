@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <RelativeLayout
+        android:id="@+id/view_background"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@drawable/item_selector_menu_drawer" >
+
+        <ImageView
+            android:id="@+id/icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:src="@drawable/ic_drawer_pacotes" />
+
+        <br.com.viajabessa.views.TextViewRobotoLight
+            android:id="@+id/title"
+            style="@style/estilo_item_menu_drawer"
+            android:layout_toRightOf="@+id/icon"
+            android:text="@string/item_drawer_pacotes" />
+    </RelativeLayout>
+
+</FrameLayout>

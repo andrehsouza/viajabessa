@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="ActionBar.Solid.Viajabessa" parent="@style/Widget.AppCompat.ActionBar.Solid">
+        <item name="background">@drawable/ab_solid_viajabessa</item>
+        <item name="backgroundStacked">@drawable/ab_stacked_solid_viajabessa</item>
+        <item name="backgroundSplit">@drawable/ab_bottom_solid_viajabessa</item>
+        <item name="progressBarStyle">@style/ProgressBar.Viajabessa</item>
+        <item name="android:background">@drawable/ab_solid_viajabessa</item>
+        <item name="android:backgroundStacked">@drawable/ab_stacked_solid_viajabessa</item>
+        <item name="android:backgroundSplit">@drawable/ab_bottom_solid_viajabessa</item>
+        <item name="android:progressBarStyle">@style/ProgressBar.Viajabessa</item>
+    </style>
+
+    <style name="ActionBar.Transparent.Viajabessa" parent="@style/Widget.AppCompat.ActionBar">
+        <item name="background">@drawable/ab_transparent_viajabessa</item>
+        <item name="progressBarStyle">@style/ProgressBar.Viajabessa</item>
+    </style>
+
+    <style name="PopupMenu.Viajabessa" parent="@style/Widget.AppCompat.PopupMenu">
+        <item name="android:popupBackground">@drawable/menu_dropdown_panel_viajabessa</item>
+    </style>
+
+    <style name="DropDownListView.Viajabessa" parent="@style/Widget.AppCompat.ListView.DropDown">
+        <item name="android:listSelector">@drawable/selectable_background_viajabessa</item>
+    </style>
+
+    <style name="ActionBarTabStyle.Viajabessa" parent="@style/Widget.AppCompat.ActionBar.TabView">
+        <item name="android:background">@drawable/tab_indicator_ab_viajabessa</item>
+    </style>
+
+    <style name="DropDownNav.Viajabessa" parent="@style/Widget.AppCompat.Spinner.DropDown.ActionBar">
+        <item name="android:background">@drawable/spinner_background_ab_viajabessa</item>
+        <item name="android:popupBackground">@drawable/menu_dropdown_panel_viajabessa</item>
+        <item name="android:dropDownSelector">@drawable/selectable_background_viajabessa</item>
+    </style>
+
+    <style name="ProgressBar.Viajabessa" parent="@style/Widget.AppCompat.ProgressBar.Horizontal">
+        <item name="android:progressDrawable">@drawable/progress_horizontal_viajabessa</item>
+    </style>
+
+    <style name="ActionButton.CloseMode.Viajabessa" parent="@style/Widget.AppCompat.ActionButton.CloseMode">
+        <item name="android:background">@drawable/btn_cab_done_viajabessa</item>
+    </style>
+
+    <!-- this style is only referenced in a Light.DarkActionBar based theme -->
+    <style name="Theme.Viajabessa.Widget" parent="@style/Theme.AppCompat">
+        <item name="popupMenuStyle">@style/PopupMenu.Viajabessa</item>
+        <item name="dropDownListViewStyle">@style/DropDownListView.Viajabessa</item>
+    </style>
+
+    <style name="EditTextViajabessa" parent="android:Widget.EditText">
+        <item name="android:background">@drawable/viajabessa_edit_text_holo_dark</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
+
+    <style name="CheckBoxViajabessa" parent="android:Widget.CompoundButton.CheckBox">
+        <item name="android:button">@drawable/viajabessa_btn_check_holo_dark</item>
+    </style>
+
+    <style name="RadioButtonViajabessa" parent="android:Widget.CompoundButton.RadioButton">
+        <item name="android:button">@drawable/viajabessa_btn_radio_holo_dark</item>
+    </style>
+
+    <style name="ButtonViajabessa" parent="android:Widget.Button">
+        <item name="android:background">@drawable/viajabessa_btn_default_holo_dark</item>
+        <item name="android:minHeight">48dip</item>
+        <item name="android:minWidth">64dip</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
+
+    <style name="ImageButtonViajabessa" parent="android:Widget.ImageButton">
+        <item name="android:background">@drawable/viajabessa_btn_default_holo_dark</item>
+    </style>
+
+    <style name="SpinnerViajabessa" parent="android:Widget.Spinner">
+        <item name="android:background">@drawable/viajabessa_spinner_background_holo_dark</item>
+        <item name="android:dropDownSelector">@drawable/viajabessa_list_selector_holo_dark</item>
+    </style>
+
+    <style name="SpinnerDropDownItemViajabessa" parent="android:Widget.DropDownItem.Spinner">
+        <item name="android:checkMark">@drawable/viajabessa_btn_radio_holo_dark</item>
+    </style>
+
+    <style name="ListViewViajabessa" parent="android:Widget.ListView">
+        <item name="android:listSelector">@drawable/viajabessa_list_selector_holo_dark</item>
+    </style>
+
+    <style name="ListViewViajabessa.White" parent="android:Widget.ListView.White">
+        <item name="android:listSelector">@drawable/viajabessa_list_selector_holo_dark</item>
+    </style>
+
+    <style name="SpinnerItemViajabessa" parent="android:TextAppearance.Widget.TextView.SpinnerItem">
+        <item name="android:textColor">#ffffff</item>
+    </style>
+
+    <!-- Estilo item lista menudrawer -->
+    <style name="estilo_item_menu_drawer" parent="android:Widget.TextView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">60dp</item>
+        <item name="android:textColor">@color/cor_texto_preto</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_marginLeft">8dp</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+    </style>
+    
+    <!-- Estilo items pacote -->
+    <style name="estilo_texto_titulo_pacote" parent="android:Widget.TextView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/cor_texto_branco</item>
+        <item name="android:background">@drawable/bg_texto_foto_pacote</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:layout_gravity">bottom</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+    </style>
+    
+    <style name="estilo_texto_conteudo_pacote" parent="android:Widget.TextView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/cor_texto_preto</item>
+    </style>
+    
+    <style name="estilo_texto_botao_comprar" parent="android:Widget.Button">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/cor_texto_branco</item>
+        <item name="android:background">@drawable/btn_verde_style</item>
+    </style>
+    
+    <style name="estilo_texto_topico_pacote" parent="android:Widget.TextView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/cor_texto_preto</item>
+        <item name="android:background">@drawable/bg_texto_topicos</item>
+        <item name="android:text">@string/texto_topico_descricao</item>
+    </style>
+
+</resources>

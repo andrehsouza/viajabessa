@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Nav Drawer Itens -->
+    <string-array name="nav_drawer_items">
+        <item>@string/item_drawer_pacotes</item>
+        <item>@string/item_drawer_promocao</item>
+        <item>@string/item_drawer_favorito</item>
+        <item>@string/item_drawer_configuracao</item>
+        <item>@string/item_drawer_sobre</item>
+    </string-array>
+
+    <!-- Nav Drawer Icons -->
+    <array name="nav_drawer_icons">
+        <item>@drawable/ic_drawer_pacotes</item>
+        <item>@drawable/ic_drawer_promocao</item>
+        <item>@drawable/ic_drawer_favorito</item>
+        <item>@drawable/ic_drawer_configuracoes</item>
+        <item>@drawable/ic_drawer_sobre</item>
+    </array>
+
+</resources>

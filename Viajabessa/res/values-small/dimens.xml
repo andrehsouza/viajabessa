@@ -1,0 +1,9 @@
+<resources>
+
+    <!-- Lista de pacotes -->
+    <dimen name="altura_divider_list_pacotes">5dp</dimen>
+    <dimen name="margem_list_pacotes">0dp</dimen>
+
+    <dimen name="altura_map">80dp</dimen>
+    <dimen name="largura_map">130dp</dimen>
+</resources>

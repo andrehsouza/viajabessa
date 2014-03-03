@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cor_bg_telas"
+    android:orientation="vertical"
+    android:padding="8dp" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/bg_cards"
+        android:orientation="vertical"
+        android:padding="8dp" >
+
+        <FrameLayout
+            android:id="@+id/view_img_foto"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/altura_foto"
+            android:background="@color/cor_shadow_cards"
+            android:clickable="true"
+            android:foreground="@drawable/selectable_background_viajabessa" >
+
+            <ImageView
+                android:id="@+id/img_pacote"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/altura_foto"
+                android:scaleType="centerCrop"
+                android:src="@color/cor_shadow_cards" />
+
+            <TextView
+                android:id="@+id/texto_nome_pacote"
+                style="@style/estilo_texto_titulo_pacote" />
+
+            <ImageView
+                android:id="@+id/img_favorito"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_margin="8dp"
+                android:background="@drawable/selectable_background_viajabessa"
+                android:src="@drawable/ic_favorito_off" />
+        </FrameLayout>
+    </LinearLayout>
+
+    <br.com.viajabessa.views.TextViewRobotoLight style="@style/estilo_texto_topico_pacote" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/bg_cards"
+        android:fillViewport="true" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="8dp" >
+
+            <FrameLayout
+                android:id="@+id/img_map"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:foreground="@drawable/selectable_background_viajabessa" >
+
+                <ImageView
+                    android:layout_width="@dimen/largura_map"
+                    android:layout_height="@dimen/altura_map"
+                    android:layout_marginRight="8dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/img_map" />
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/texto_descricao_pacote"
+                style="@style/estilo_texto_conteudo_pacote" />
+        </RelativeLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/bt_comprar"
+        style="@style/estilo_texto_botao_comprar" />
+
+</LinearLayout>

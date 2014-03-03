@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="Theme.Viajabessa" parent="@style/Theme.AppCompat.Light">
+        <!-- Actionbar -->
+        <item name="actionBarStyle">@style/ActionBar.Solid.Viajabessa</item>
+        <item name="android:actionBarStyle">@style/ActionBar.Solid.Viajabessa</item>
+        <item name="actionBarItemBackground">@drawable/selectable_background_viajabessa</item>
+        <item name="popupMenuStyle">@style/PopupMenu.Viajabessa</item>
+        <item name="dropDownListViewStyle">@style/DropDownListView.Viajabessa</item>
+        <item name="actionBarTabStyle">@style/ActionBarTabStyle.Viajabessa</item>
+        <item name="actionDropDownStyle">@style/DropDownNav.Viajabessa</item>
+        <item name="actionModeBackground">@drawable/cab_background_top_viajabessa</item>
+        <item name="actionModeSplitBackground">@drawable/cab_background_bottom_viajabessa</item>
+        <item name="actionModeCloseButtonStyle">@style/ActionButton.CloseMode.Viajabessa</item>
+        <!-- Componentes -->
+        <item name="android:editTextStyle">@style/EditTextViajabessa</item>
+        <item name="android:checkboxStyle">@style/CheckBoxViajabessa</item>
+        <item name="android:radioButtonStyle">@style/RadioButtonViajabessa</item>
+        <item name="android:buttonStyle">@style/ButtonViajabessa</item>
+        <item name="android:imageButtonStyle">@style/ImageButtonViajabessa</item>
+        <item name="android:spinnerStyle">@style/SpinnerViajabessa</item>
+        <item name="android:spinnerDropDownItemStyle">@style/SpinnerDropDownItemViajabessa</item>
+        <item name="android:listViewStyle">@style/ListViewViajabessa</item>
+        <item name="android:listViewWhiteStyle">@style/ListViewViajabessa.White</item>
+        <item name="android:spinnerItemStyle">@style/SpinnerItemViajabessa</item>
+    </style>
+
+</resources>

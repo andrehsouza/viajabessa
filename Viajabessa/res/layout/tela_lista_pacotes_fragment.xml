@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cor_bg_telas"
+    android:orientation="vertical" >
+
+    <ListView
+        android:id="@+id/lista_pacotes"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:cacheColorHint="#00000000"
+        android:clipToPadding="false"
+        android:divider="@color/cor_bg_telas"
+        android:dividerHeight="@dimen/altura_divider_list_pacotes"
+        android:drawSelectorOnTop="false"
+        android:fastScrollEnabled="true"
+        android:padding="@dimen/margem_list_pacotes"
+        android:scrollbarStyle="outsideOverlay" />
+
+</FrameLayout>

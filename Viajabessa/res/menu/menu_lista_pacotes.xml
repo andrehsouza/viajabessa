@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" >
+
+    <item
+        android:id="@+id/atualizar"
+        android:icon="@drawable/ic_menu_atualiza"
+        app:showAsAction="always"
+        android:title="@string/texto_menu_atualiza">
+    </item>
+    
+    
+</menu>

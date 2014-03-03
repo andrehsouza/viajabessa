@@ -1,0 +1,15 @@
+<resources>
+
+    <!-- Drawer -->
+    <dimen name="largura_drawer">300dp</dimen>
+
+    <!-- Lista de pacotes -->
+    <dimen name="altura_divider_list_pacotes">6dp</dimen>
+    <dimen name="altura_list_item_pacotes">140dp</dimen>
+
+    <!-- Detalhes de pacotes -->
+    <dimen name="altura_foto">350dp</dimen>
+    <dimen name="altura_map">150dp</dimen>
+    <dimen name="largura_map">200dp</dimen>
+
+</resources>

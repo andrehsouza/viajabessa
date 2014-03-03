@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="viajabessa_color">#129efb</color>
+    <color name="cor_bg_telas">#EEEDED</color>
+    <color name="cor_texto_branco">#FFF</color>
+    <color name="cor_texto_preto">#363636</color>
+    <color name="cor_bg_cards">#e4e4e4</color>
+    <color name="cor_shadow_cards">#d6d6d6</color>
+    <color name="cor_button_verde">#40B872</color>
+    <color name="cor_button_verde_shadow">#277C4A</color>
+</resources>
